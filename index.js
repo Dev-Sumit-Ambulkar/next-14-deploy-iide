@@ -13,7 +13,8 @@ app.use(bodyParser.urlencoded({extended:true}));
 
 app.get("/",(req,res)=>{
     const mes = {
-        "status":200
+        "status":200,
+        "message":"Everything is working fine"
     }
     res.send(mes);
 })
